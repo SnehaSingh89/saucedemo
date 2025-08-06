@@ -8,6 +8,7 @@ on:
 
 jobs:
   test:
+    name: MyWorkflow
     runs-on: ubuntu-latest
 
     steps:
