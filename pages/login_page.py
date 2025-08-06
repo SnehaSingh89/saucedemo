@@ -23,5 +23,8 @@ class LoginPage:
     def login(self, username, password):
         """Combined method to perform full login"""
         self.enter_username(username)
+        print("Enter username")
         self.enter_password(password)
+        print("Enter password")
         self.click_login()
+        print("Click login button")
