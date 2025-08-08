@@ -11,9 +11,6 @@ import os
 # Link this file to the feature file
 scenarios('login.feature')
 
-
-
-
 @pytest.fixture
 def driver():
     options = Options()

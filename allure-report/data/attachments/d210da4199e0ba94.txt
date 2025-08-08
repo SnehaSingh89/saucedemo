@@ -1,0 +1,9 @@
+[32mINFO    [0m WDM:logger.py:11 ====== WebDriver manager ======
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+[32mINFO    [0m WDM:logger.py:11 Driver [C:\Users\aa\.wdm\drivers\chromedriver\win64\138.0.7204.183\chromedriver-win32/chromedriver.exe] found in cache
+[32mINFO    [0m pages.login_page:login_page.py:22 Login page loaded
+[32mINFO    [0m pages.login_page:login_page.py:26 Entered username: standard_user
+[32mINFO    [0m pages.login_page:login_page.py:30 Entered password: ************
+[32mINFO    [0m pages.login_page:login_page.py:34 Clicked login button
+[32mINFO    [0m pages.login_page:login_page.py:41 Login process completed
