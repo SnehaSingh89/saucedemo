@@ -4,3 +4,4 @@ Feature: Login functionality of SauceDemo
     Given the user is on the login page
     When the user logs in with username "standard_user" and password "secret_sauce"
     Then the user should be redirected to the products page
+    Then the user should see the product list
