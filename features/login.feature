@@ -8,3 +8,5 @@ Feature: Login functionality of SauceDemo
 
     Scenario: Unsuccessful login with invalid credentials
       Given the user is on the login page
+        When the user logs in with username "invalid_user" and password "wrong_password"
+        Then the user should see an error message "Epic sadface: Username and password do not match any user in this service"
