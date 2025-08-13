@@ -7,3 +7,4 @@ Feature: Login functionality of SauceDemo
     And the user should see the product list
 
     Scenario: Unsuccessful login with invalid credentials
+      Given the user is on the login page
