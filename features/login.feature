@@ -11,3 +11,8 @@ Feature: Login functionality of SauceDemo
         When the user logs in with username "invalid_user" and password "wrong_password"
         Then the user should see an error message "Epic sadface: Username and password do not match any user in this service"
         Then the user is on the login page
+
+    Scenario: Unsuccessful login with empty credentials
+    Given the user is on the login page
+        When the user attempts to log in with empty username and password
+        Then the user should see an error message "Epic sadface: Username is required"
