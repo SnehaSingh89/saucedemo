@@ -2,7 +2,7 @@ Feature: Login functionality of SauceDemo
 
   Scenario: Successful logout with valid credentials
     Given the user is at the logout page
-    And user enters submit button
+    And user enters click button
     When the user logs in with username "standard_user" and password "secret_sauce"
     Then the user should be redirected to the products page
     And the user should see the product list
